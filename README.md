@@ -1,52 +1,54 @@
-# OASIS-INFOBYTE-CAR-PRICE-PREDICTION-USING-MACHINE-LEARNING-
+# Unemployment Analysis with Python
 
-```markdown
-# Car Price Prediction Using Machine Learning
+This project performs an analysis of unemployment data using Python. The unemployment rate measures the percentage of people who are unemployed out of the total labor force, and it provides valuable insights into the economic health of a country. This analysis is especially relevant due to the increase in unemployment rates during the COVID-19 pandemic.
 
-## Overview
-This project aims to predict car prices based on various features using machine learning algorithms. The dataset includes details such as make, model, year, mileage, and more.
+## Project Overview
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Preprocessing](#data-preprocessing)
-- [Modeling](#modeling)
-- [Evaluation](#evaluation)
-- [Conclusion](#conclusion)
+The goal of this project is to analyze the unemployment rate data over a specified period and visualize trends. We’ll perform data cleaning, exploration, and visualization to understand changes in the unemployment rate and derive insights from it.
 
-## Installation
-To run this project, you need to have Python installed along with the following libraries:
+## Dataset
+
+The dataset contains information on unemployment rates over time. It includes columns such as:
+
+- **Date**: The date on which the data was recorded.
+- **Unemployment Rate**: The unemployment rate as a percentage of the total labor force.
+
+## Requirements
+
+- Python 3.x
+- Libraries:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+
+To install the required libraries, run:
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+pip install pandas numpy matplotlib seaborn
 ```
 
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/max0907github/OASIS-INFOBYTE-CAR-PRICE-PREDICTION-USING-MACHINE-LEARNING-
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd OASIS-INFOBYTE-CAR-PRICE-PREDICTION-USING-MACHINE-LEARNING-
-   ```
-3. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook OASIS_INFOBYTE_DS_03_Car-Price-Prediction-with-Machine-Learning.ipynb
-   ```
+## Project Structure
 
-## Data Preprocessing
-The dataset was cleaned and preprocessed by handling missing values, encoding categorical variables, and normalizing numerical features.
+- **Unemployment_Analysis.ipynb**: Jupyter Notebook containing the code for data loading, cleaning, exploration, and visualization.
+- **README.md**: This file, providing an overview of the project.
 
-## Modeling
-Several regression models were implemented:
-- Linear Regression
-- Decision Tree Regression
-- Random Forest Regression
+## Analysis and Visualization
 
-Each model's performance was evaluated using RMSE and R-squared metrics.
+The analysis includes:
 
-## Evaluation
-The best-performing model was selected based on its ability to minimize error and maximize prediction accuracy.
+1. **Loading and Cleaning Data**: Checking for missing values and ensuring data is ready for analysis.
+2. **Trend Analysis**: Plotting the unemployment rate over time to observe trends.
+3. **Statistical Analysis**: Calculating the average unemployment rate.
+4. **Distribution Visualization**: Displaying the distribution of unemployment rates.
 
-## Conclusion
-This project enhanced my understanding of machine learning techniques and their application in real-world scenarios. I look forward to applying these skills in future projects!
+## Results
+
+The project provides insights into how the unemployment rate has changed over time, highlighting any significant trends or outliers.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+[Maxwell Leleur]
